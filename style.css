@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(223, 226, 205);
+}
+h1 {
+  color: white;
+}
+
+p {
+  font-size: 1rem;
+  text-align: justify;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#one {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+.ratio {
+  position: relative;
+  margin-top: 16px;
+  height: 30vh;
+  width: 20vw;
+  align-content: center;
+  border-radius: 15px;
+}
+
+.small {
+  position: relative;
+  margin-top: 16px;
+  width: 20vw;
+  height: 30vh;
+  align-content: center;
+  border-radius: 15px;
+}
+.two {
+  background-color: white;
+  height: 100%;
+  width: 21%;
+  border: 1px solid white;
+  text-align: center;
+  margin-left: 1%;
+  border-radius: 15px;
+  overflow: auto;
+  margin-left: 2%;
+  padding-bottom: 1%;
+}
+@media only screen and (max-width: 450px) {
+  .two {
+    background-color: rgb(255, 255, 255);
+    height: 77vh;
+    width: 100%;
+    border: 1px solid white;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 4%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    border-radius: 15px;
+    overflow: auto;
+  }
+  #one {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .small {
+    position: relative;
+    margin-top: 16px;
+    width: 80vw;
+    height: 35vh;
+    align-content: center;
+    border-radius: 15px;
+  }
+  .ratio {
+    position: relative;
+    margin-top: 16px;
+    height: 35vh;
+    width: 80vw;
+    align-content: center;
+    border-radius: 15px;
+  }
+}
+
+button {
+  color: white;
+  border: none;
+  border-radius: 8px;
+  height: 2rem;
+  width: 89%;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: 0 0 5px red;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: rgb(81, 81, 243);
+}
